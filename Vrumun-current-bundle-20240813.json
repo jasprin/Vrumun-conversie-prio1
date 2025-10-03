@@ -1,0 +1,1881 @@
+{
+  "resourceType": "Bundle",
+  "id": "5bc294ad-275e-4a2c-b869-a387674f030b",
+  "meta": {
+    "lastUpdated": "2024-07-26T12:05:30.7779321+02:00"
+  },
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5d294fa0-60b2-4a91-ae13-ec1756660883",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/bc-TransactionComposition"
+          ]
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "15508-5",
+              "display": "Labor and delivery records"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "date": "2024-07-26T12:05:30.7779321+02:00",
+        "author": [
+          {
+            "reference": "urn:uuid:31d04429-abbe-495a-8162-38ee535468de",
+            "display": "D.M. Schapink"
+          }
+        ],
+        "title": "Prio 1 huidig en vorig",
+        "section": [
+          {
+            "entry": [
+              {
+                "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+                "display": "H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:23f3fcaa-52d5-4bc3-ad5e-f3df1d1001f6",
+                "display": "Verloskundigenpraktijk Suus"
+              },
+              {
+                "reference": "urn:uuid:31d04429-abbe-495a-8162-38ee535468de",
+                "display": "D.M. Schapink"
+              },
+              {
+                "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+                "display": "Zwangerschapsdossier H  XXX_Kooij"
+              },
+              {
+                "reference": "Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+                "display": "Zwangerschap H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:10193bce-7387-48cb-81ab-4fa6f3ac6ae5",
+                "display": "Graviditeit H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:c58747bc-c24d-450c-a569-dcb4354a98af",
+                "display": "Pariteit H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:71fee443-5a73-415d-96e9-0ebbee40e260",
+                "display": "A terme datum H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:ca25bec8-6c54-467c-8fc2-0c7d0e8dfb2b",
+                "display": "Bloedgroep H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:e57e5ff3-fddc-42c5-ac10-190b91841f8d",
+                "display": "Rhesus D factor H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:af254465-e4ed-444f-9368-01f2ad1c03ca",
+                "display": "Rhesus c factor H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:661a19b1-a249-4200-b979-0a2f5d0a78e0",
+                "display": "Hb H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:00d11421-6b39-466a-a1ba-c8e74dc6647f",
+                "display": "Hb H  XXX_Kooij"
+              },
+              {
+                "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+                "display": "Zwangerschapsdossier H  XXX_Kooij"
+              },
+              {
+                "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+                "display": "Zwangerschap H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:451781d1-471c-4ac7-8017-204f0dffc433",
+                "display": "Graviditeit H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:438699cd-9e42-41ad-af59-d04088445fbe",
+                "display": "Pariteit H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:e1961e2d-8a0e-4b4f-804b-0cdd66e98b04",
+                "display": "Wijze einde zwangerschap H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:89389999-f2a9-4734-928c-3fa5b6bc93b9",
+                "display": "Datum einde zwangerschap H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:c99a6a3f-5183-42ce-bc93-478a4d273545",
+                "display": "Hoeveelheid bloedverlies H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:056b38f6-b7ae-4669-8171-586ec189eb5f",
+                "display": "Tijdstip actief meepersen H  XXX_Kooij"
+              },
+              {
+                "reference": "urn:uuid:35966366-7db0-4c37-8bc6-429e72e7d2f4",
+                "display": "Zwangerschapsduur H  XXX_Kooij"
+              },
+              {
+                "reference": "Observation/apgar1-524b79f4-29dc-43be-a455-fd4897046240",
+                "display": "Apgarscore na 1 min."
+              },
+              {
+                "reference": "Observation/apgar5-524b79f4-29dc-43be-a455-fd4897046240",
+                "display": "Apgarscore na 5 min."
+              },
+              {
+                "reference": "Observation/apgar10-524b79f4-29dc-43be-a455-fd4897046240",
+                "display": "Apgarscore na 10 min."
+              },
+              {
+                "reference": "Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240",
+                "display": "Geboortegewicht"
+              },
+              {
+                "reference": "urn:uuid:9e76b29c-416a-4a66-ba43-9cb2e56457b3",
+                "display": "Bevalling H  XXX_Kooij"
+              },
+              {
+                "reference": "Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240",
+                "display": "Baring"
+              },
+              {
+                "reference": "Patient/kind-524b79f4-29dc-43be-a455-fd4897046240"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-patient",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-Woman"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">H  XXX_Kooij</div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://fhir.nl/fhir/NamingSystem/bsn",
+            "value": "999900717"
+          }
+        ],
+        "name": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                "valueCode": "NL1"
+              }
+            ],
+            "family": "XXX_Kooij",
+            "_family": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                  "valueString": "XXX_Kooij"
+                }
+              ]
+            },
+            "given": [
+              "Hanna",
+              "H"
+            ],
+            "_given": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                    "valueCode": "CL"
+                  }
+                ]
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                    "valueCode": "IN"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1985-10-18",
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "http://fhir.nl/fhir/StructureDefinition/nl-core-address-official",
+                "valueBoolean": true
+              },
+              {
+                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v3/AddressUse",
+                      "code": "HP",
+                      "display": "Officieel adres"
+                    }
+                  ]
+                }
+              }
+            ],
+            "use": "home",
+            "line": [
+              "Knolweg 1002c"
+            ],
+            "_line": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                    "valueString": "Knolweg"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                    "valueString": "1002"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix",
+                    "valueString": "c"
+                  }
+                ]
+              }
+            ],
+            "city": "STITSWERD",
+            "postalCode": "9999ZZ",
+            "country": "Nederland",
+            "_country": {
+              "extension": [
+                {
+                  "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "urn:iso:std:iso:3166",
+                        "code": "NL",
+                        "display": "Nederland"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "managingOrganization": {
+          "reference": "urn:uuid:23f3fcaa-52d5-4bc3-ad5e-f3df1d1001f6",
+          "display": "Verloskundigenpraktijk Suus"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient?identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23f3fcaa-52d5-4bc3-ad5e-f3df1d1001f6",
+      "resource": {
+        "resourceType": "Organization",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-organization"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Verloskundigenpraktijk Suus</div>"
+        },
+        "identifier": [
+          {
+            "system": "http://fhir.nl/fhir/NamingSystem/agb-z/",
+            "value": "08004392"
+          }
+        ],
+        "name": "Verloskundigenpraktijk Suus",
+        "telecom": [
+          {
+            "extension": [
+              {
+                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1",
+                      "code": "LL",
+                      "display": "Vast telefoonnummer"
+                    }
+                  ]
+                }
+              }
+            ],
+            "system": "phone",
+            "value": "074-2020027",
+            "use": "work"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v3/AddressUse",
+                      "code": "MC",
+                      "display": "Mobiel telefoonnummer"
+                    }
+                  ]
+                }
+              }
+            ],
+            "system": "phone",
+            "value": "06-20620137",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "http://fhir.nl/fhir/StructureDefinition/nl-core-address-official",
+                "valueBoolean": true
+              },
+              {
+                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v3/AddressUse",
+                      "code": "WP",
+                      "display": "Werkadres"
+                    }
+                  ]
+                }
+              }
+            ],
+            "use": "work",
+            "line": [
+              "Theresiaplein 1a 17"
+            ],
+            "_line": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                    "valueString": "Theresiaplein"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                    "valueString": "1"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix",
+                    "valueString": "a"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                    "valueString": "17"
+                  }
+                ]
+              }
+            ],
+            "city": "Borne",
+            "postalCode": "7622HK",
+            "country": "Nederland",
+            "_country": {
+              "extension": [
+                {
+                  "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "urn:iso:std:iso:3166",
+                        "code": "NL",
+                        "display": "Nederland"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization?identifier=http://fhir.nl/fhir/NamingSystem/agb-z/|08004392"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:31d04429-abbe-495a-8162-38ee535468de",
+      "resource": {
+        "resourceType": "Practitioner",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">D.M. Schapink</div>"
+        },
+        "identifier": [
+          {
+            "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+            "value": "08100751"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner?identifier=http://fhir.nl/fhir/NamingSystem/agb-z|08100751"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "EpisodeOfCare",
+        "id": "zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-episodeofcare",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-MaternalRecord"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Zwangerschapsdossier H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/EpisodeOfCare-DateFirstEncounter",
+            "valueDateTime": "2023-09-08"
+          }
+        ],
+        "status": "active",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "364320009",
+                "display": "Pregnancy observable (observable entity)"
+              }
+            ]
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "patient": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "managingOrganization": {
+          "reference": "urn:uuid:23f3fcaa-52d5-4bc3-ad5e-f3df1d1001f6",
+          "display": "Verloskundigenpraktijk Suus"
+        },
+        "period": {
+          "start": "2023-09-08"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Zwangerschap H  XXX_Kooij</div>"
+        },
+        "clinicalStatus": "active",
+        "_clinicalStatus": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "55561003",
+                    "display": "Actueel"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "364320009",
+              "display": "Pregnancy observable"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10193bce-7387-48cb-81ab-4fa6f3ac6ae5",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-Gravidity"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Graviditeit H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11996-6",
+              "display": "Graviditeit"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueQuantity": {
+          "value": 3,
+          "system": "http://unitsofmeasure.org",
+          "code": "1"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=11996-6&context:EpisodeOfCare=zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c58747bc-c24d-450c-a569-dcb4354a98af",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-Parity"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pariteit H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11977-6",
+              "display": "Pariteit"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueQuantity": {
+          "value": 1,
+          "system": "http://unitsofmeasure.org",
+          "code": "1"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=11977-6&context:EpisodeOfCare=zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:71fee443-5a73-415d-96e9-0ebbee40e260",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-TermDate"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">A terme datum H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11778-8",
+              "display": "A terme datum"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueDateTime": "2024-04-28"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=11778-8&context:EpisodeOfCare=zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca25bec8-6c54-467c-8fc2-0c7d0e8dfb2b",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-LaboratoryTestResult-Observation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bloedgroep H  XXX_Kooij</div>"
+        },
+        "status": "final",
+        "_status": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+                    "code": "final",
+                    "display": "Definitief"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              },
+              {
+                "system": "http://snomed.info/sct",
+                "code": "49581000146104",
+                "display": "Laboratory test finding (finding)"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "883-9",
+              "display": "ABO group [Type] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "112144000",
+              "display": "Blood group A"
+            }
+          ],
+          "text": "Bloedgroep: A"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=883-9&context:EpisodeOfCare=zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e57e5ff3-fddc-42c5-ac10-190b91841f8d",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-LaboratoryTestResult-Observation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rhesus D factor H  XXX_Kooij</div>"
+        },
+        "status": "final",
+        "_status": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+                    "code": "final",
+                    "display": "Definitief"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              },
+              {
+                "system": "http://snomed.info/sct",
+                "code": "49581000146104",
+                "display": "Laboratory test finding (finding)"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "978-7",
+              "display": "D Ag [Presence] on Red Blood Cells"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "165747007",
+              "display": "RhD positive"
+            }
+          ],
+          "text": "RhD positief"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=978-7&context:EpisodeOfCare=zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af254465-e4ed-444f-9368-01f2ad1c03ca",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-LaboratoryTestResult-Observation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rhesus c factor H  XXX_Kooij</div>"
+        },
+        "status": "final",
+        "_status": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+                    "code": "final",
+                    "display": "Definitief"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              },
+              {
+                "system": "http://snomed.info/sct",
+                "code": "49581000146104",
+                "display": "Laboratory test finding (finding)"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1159-3",
+              "display": "little c Ag [Presence] on Red Blood Cells"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "effectiveDateTime": "2023-09-08T00:00:00+02:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "733120009",
+              "display": "Rhc positive"
+            }
+          ],
+          "text": "Rhc positief"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=1159-3&context:EpisodeOfCare=zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:661a19b1-a249-4200-b979-0a2f5d0a78e0",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-LaboratoryTestResult-Observation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hb H  XXX_Kooij</div>"
+        },
+        "status": "final",
+        "_status": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+                    "code": "final",
+                    "display": "Definitief"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              },
+              {
+                "system": "http://snomed.info/sct",
+                "code": "49581000146104",
+                "display": "Laboratory test finding (finding)"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin (Bld) [Mass/Vol]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "effectiveDateTime": "2024-01-19T00:00:00+01:00",
+        "valueQuantity": {
+          "value": 7.5,
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=718-7&context:EpisodeOfCare=zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00d11421-6b39-466a-a1ba-c8e74dc6647f",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-LaboratoryTestResult-Observation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hb H  XXX_Kooij</div>"
+        },
+        "status": "final",
+        "_status": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+                    "code": "final",
+                    "display": "Definitief"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              },
+              {
+                "system": "http://snomed.info/sct",
+                "code": "49581000146104",
+                "display": "Laboratory test finding (finding)"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin (Bld) [Mass/Vol]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "effectiveDateTime": "2023-09-08T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 8.1,
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=718-7&context:EpisodeOfCare=zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "EpisodeOfCare",
+        "id": "zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-episodeofcare",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-MaternalRecord"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Zwangerschapsdossier H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/EpisodeOfCare-DateFirstEncounter",
+            "valueDateTime": "2022-06-17"
+          },
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/EpisodeOfCare-DateLastEncounter",
+            "valueDateTime": "2022-06-17"
+          }
+        ],
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "364320009",
+                "display": "Pregnancy observable (observable entity)"
+              }
+            ]
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "patient": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "period": {
+          "start": "2022-06-17",
+          "end": "2022-06-17"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Zwangerschap H  XXX_Kooij</div>"
+        },
+        "clinicalStatus": "inactive",
+        "_clinicalStatus": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "73425007",
+                    "display": "Niet actueel"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "364320009",
+              "display": "Pregnancy observable"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "onsetDateTime": "2022-06-17"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:451781d1-471c-4ac7-8017-204f0dffc433",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-Gravidity"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Graviditeit H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11996-6",
+              "display": "Graviditeit"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueQuantity": {
+          "value": 1,
+          "system": "http://unitsofmeasure.org",
+          "code": "1"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=11996-6&context:EpisodeOfCare=zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:438699cd-9e42-41ad-af59-d04088445fbe",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-Parity"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pariteit H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11977-6",
+              "display": "Pariteit"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueQuantity": {
+          "value": 0,
+          "system": "http://unitsofmeasure.org",
+          "code": "1"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=11977-6&context:EpisodeOfCare=zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e1961e2d-8a0e-4b4f-804b-0cdd66e98b04",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Wijze einde zwangerschap H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.2.4.4.13",
+              "code": "EindeZw",
+              "display": "Wijze einde zwangerschap"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.2.4.4.13.46",
+              "code": "1",
+              "display": "Partus"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=EindeZw&context:EpisodeOfCare=zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:89389999-f2a9-4734-928c-3fa5b6bc93b9",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Datum einde zwangerschap H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+              "display": "Zwangerschap H  XXX_Kooij"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "118951000146109",
+              "display": "Date of end of pregnancy (observable entity)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueDateTime": "2022-06-17"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=118951000146109&context:EpisodeOfCare=zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c99a6a3f-5183-42ce-bc93-478a4d273545",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-DeliveryObservation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hoeveelheid bloedverlies H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "urn:uuid:9e76b29c-416a-4a66-ba43-9cb2e56457b3"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "364332008",
+              "display": "Blood loss in labor (observable entity)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+          "display": "Zwangerschapsdossier H  XXX_Kooij"
+        },
+        "valueQuantity": {
+          "value": 300,
+          "system": "http://unitsofmeasure.org",
+          "code": "/mL"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=364332008&context:EpisodeOfCare=zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:056b38f6-b7ae-4669-8171-586ec189eb5f",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-BirthObservation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tijdstip actief meepersen H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240"
+            }
+          },
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Patient/kind-524b79f4-29dc-43be-a455-fd4897046240"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "249163006",
+              "display": "Onset of pushing (in labor) (observable entity)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+        },
+        "valueDateTime": "2022-06-17T21:00:00+02:00"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=249163006&context:EpisodeOfCare=zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:35966366-7db0-4c37-8bc6-429e72e7d2f4",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-PregnancyDuration"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Zwangerschapsduur H  XXX_Kooij</div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+            "valueReference": {
+              "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+            }
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "57036006",
+              "display": "Zwangerschapsduur"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+        },
+        "effectiveDateTime": "2022-06-17",
+        "valueQuantity": {
+          "value": 280,
+          "system": "urn:oid:2.16.840.1.113883.6.8",
+          "code": "d"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=57036006&context:EpisodeOfCare=zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "apgar1-524b79f4-29dc-43be-a455-fd4897046240",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-ApgarScore"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Apgarscore na 1 min. </div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9272-6",
+              "display": "1 minute Apgar Score"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/kind-524b79f4-29dc-43be-a455-fd4897046240"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+        },
+        "effectiveDateTime": "2022-06-17",
+        "valueQuantity": {
+          "value": 7
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/apgar1-524b79f4-29dc-43be-a455-fd4897046240"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "apgar5-524b79f4-29dc-43be-a455-fd4897046240",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-ApgarScore"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Apgarscore na 5 min. </div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9274-2",
+              "display": "5 minute Apgar Score"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/kind-524b79f4-29dc-43be-a455-fd4897046240"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+        },
+        "effectiveDateTime": "2022-06-17",
+        "valueQuantity": {
+          "value": 8
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/apgar5-524b79f4-29dc-43be-a455-fd4897046240"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "apgar10-524b79f4-29dc-43be-a455-fd4897046240",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/zib-ApgarScore"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Apgarscore na 10 min. </div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9271-8",
+              "display": "10 minute Apgar Score"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/kind-524b79f4-29dc-43be-a455-fd4897046240"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+        },
+        "effectiveDateTime": "2022-06-17",
+        "valueQuantity": {
+          "value": 10
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/apgar10-524b79f4-29dc-43be-a455-fd4897046240"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-ChildObservation"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Geboortegewicht </div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8339-4",
+              "display": "Geboortegewicht"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/kind-524b79f4-29dc-43be-a455-fd4897046240"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+        },
+        "valueQuantity": {
+          "value": 3415,
+          "system": "http://unitsofmeasure.org",
+          "code": "g"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9e76b29c-416a-4a66-ba43-9cb2e56457b3",
+      "resource": {
+        "resourceType": "Procedure",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/bc-DeliveryProcedure"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bevalling H  XXX_Kooij</div>"
+        },
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386637004",
+              "display": "Obstetric procedure (procedure)"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "236973005",
+              "display": "Delivery procedure (procedure)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1329808e-9b08-412f-a1b3-95fa9a13a679",
+          "display": "H  XXX_Kooij"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6",
+          "display": "Bevalling H  XXX_Kooij"
+        },
+        "reasonReference": [
+          {
+            "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Procedure?patient:Patient.identifier=http://fhir.nl/fhir/NamingSystem/bsn|999900717&code=236973005&context:EpisodeOfCare=zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "baring-524b79f4-29dc-43be-a455-fd4897046240",
+        "meta": {
+          "profile": [
+            "http://nictiz.nl/fhir/StructureDefinition/bc-Birth"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Baring </div>"
+        },
+        "partOf": [
+          {
+            "reference": "urn:uuid:9e76b29c-416a-4a66-ba43-9cb2e56457b3"
+          }
+        ],
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386637004",
+              "display": "Obstetric procedure (procedure)"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "3950001",
+              "display": "Birth (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/kind-524b79f4-29dc-43be-a455-fd4897046240"
+        },
+        "context": {
+          "reference": "EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+        },
+        "reasonReference": [
+          {
+            "reference": "Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "kind-524b79f4-29dc-43be-a455-fd4897046240",
+        "meta": {
+          "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-patient",
+            "http://nictiz.nl/fhir/StructureDefinition/bc-Child"
+          ]
+        },
+        "birthDate": "2022-06-17",
+        "_birthDate": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+              "valueDateTime": "2022-06-17T23:00:00+02:00"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/kind-524b79f4-29dc-43be-a455-fd4897046240"
+      }
+    }
+  ]
+}
