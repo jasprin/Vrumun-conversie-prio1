@@ -1,0 +1,663 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Validation Results</title>
+  <link href="http://hl7.org/fhir/fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results</h1>
+ <p>31 errors, 154 warnings, 22 hints. Generated Oct 3, 2025, 10:34:36 AM by Validator Version 6.7.0 (Git# f299b0928a8d). Built 2025-10-01T03:11:53.244Z (55 hours old) (51186ms)</p>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#;1"><b>fhir\Vrumun-current-bundle-20240813.json</b></a></td><td><b>31</b></td><td><b>154</b></td><td><b>22</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l1"> </a>
+<h2><a href="file:fhir\Vrumun-current-bundle-20240813.json">fhir\Vrumun-current-bundle-20240813.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.type.coding[0].display (l20/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Labor and delivery records' for http://loinc.org#15508-5. Valid display is 'Dossier zwangerschap en bevalling [bevinding] (document)' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[3]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[4]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 5 matches the reference Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[13]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[14]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 15 matches the reference Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[22]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 23 matches the reference Observation/apgar1-524b79f4-29dc-43be-a455-fd4897046240 by type and id but it does not match the full target URL urn:uuid:apgar1-524b79f4-29dc-43be-a455-fd4897046240 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[23]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 24 matches the reference Observation/apgar5-524b79f4-29dc-43be-a455-fd4897046240 by type and id but it does not match the full target URL urn:uuid:apgar5-524b79f4-29dc-43be-a455-fd4897046240 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[24]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 25 matches the reference Observation/apgar10-524b79f4-29dc-43be-a455-fd4897046240 by type and id but it does not match the full target URL urn:uuid:apgar10-524b79f4-29dc-43be-a455-fd4897046240 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[25]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 26 matches the reference Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240 by type and id but it does not match the full target URL urn:uuid:geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[27]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 28 matches the reference Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240 by type and id but it does not match the full target URL urn:uuid:baring-524b79f4-29dc-43be-a455-fd4897046240 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.section[0].entry[28]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 29 matches the reference Patient/kind-524b79f4-29dc-43be-a455-fd4897046240 by type and id but it does not match the full target URL urn:uuid:kind-524b79f4-29dc-43be-a455-fd4897046240 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource/*Composition/prio1-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.meta.profile[0] (l11/c8)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_ERROR"><b>Profile reference 'http://nictiz.nl/fhir/StructureDefinition/bc-TransactionComposition' has not been checked because it could not be found, and fetching it resulted in the error org.hl7.fhir.dstu3.support.utils.client.EFhirClientException: Error parsing response message from http://nictiz.nl/fhir: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 3 column 12 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[1].resource/*Patient/null*/.address[0].extension[1].value.ofType(CodeableConcept).coding[0].display (l241/c18)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Officieel adres' for http://hl7.org/fhir/v3/AddressUse#HP. Valid display is 'primary home' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[1].resource/*Patient/null*/.address[0].country.extension[0].value.ofType(CodeableConcept).coding[0].display (l281/c20)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Nederland' for urn:iso:std:iso:3166#NL. Valid display is 'Netherlands' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[1].resource/*Patient/null*/.address[0].country.extension[0].value.ofType(CodeableConcept).coding[0] (l283/c24)</b></td><td><b>warning</b></td><td title="null"><b>Wrong Display Name 'Nederland' for urn:iso:std:iso:3166#NL. Valid display is 'Netherlands' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource/*Organization/null*/.telecom[0].extension[0].value.ofType(CodeableConcept).coding[0].system (l330/c18)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource/*Organization/null*/.telecom[0].extension[0].value.ofType(CodeableConcept) (l330/c18)</b></td><td><b>warning</b></td><td title="UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS"><b>Unable to check whether the code is in the value set 'http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.20.6.1--20171231000000|2017-12-31T00:00:00' because the code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1 was not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource/*Organization/null*/.telecom[0].extension[0].value.ofType(CodeableConcept).coding[0] (l330/c18)</b></td><td><b>warning</b></td><td title="null"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource/*Organization/null*/.telecom[1].extension[0].value.ofType(CodeableConcept).coding[0].display (l349/c18)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Mobiel telefoonnummer' for http://hl7.org/fhir/v3/AddressUse#MC. Valid display is 'mobile contact)' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource/*Organization/null*/.address[0].extension[1].value.ofType(CodeableConcept).coding[0].display (l374/c18)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Werkadres' for http://hl7.org/fhir/v3/AddressUse#WP. Valid display is 'work place' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource/*Organization/null*/.address[0].country.extension[0].value.ofType(CodeableConcept).coding[0].display (l418/c20)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Nederland' for urn:iso:std:iso:3166#NL. Valid display is 'Netherlands' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource/*Organization/null*/.identifier[0] (l319/c12)</b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://fhir.nl/fhir/StructureDefinition/nl-core-organization|2.0.6 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sm22" class="flip" onclick="flip('m22')">Show Reasoning</span><div id="m22" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://fhir.nl/fhir/StructureDefinition/nl-core-organization|2.0.6 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[2].resource/*Organization/null*/.identifier[0]: discriminator = true and ('http://fhir.nl/fhir/NamingSystem/ura' in system)</li>, <li>Bundle.entry[2].resource/*Organization/null*/.identifier[0]: discriminator = true and ('http://fhir.nl/fhir/NamingSystem/agb-z' in system)</li>, <li>Bundle.entry[2].resource/*Organization/null*/.identifier[0]: discriminator = true and ('http://fhir.nl/fhir/NamingSystem/uzovi' in system)</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource/*Organization/null*/.address[0].country.extension[0].value.ofType(CodeableConcept).coding[0] (l420/c24)</b></td><td><b>warning</b></td><td title="null"><b>Wrong Display Name 'Nederland' for urn:iso:std:iso:3166#NL. Valid display is 'Netherlands' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource/*EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.type[0].coding[0].display (l485/c12)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Pregnancy observable (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[4] (l463/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[4].resource/*EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.diagnosis[0].condition</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[5].resource/*Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.clinicalStatus.extension[0].value.ofType(CodeableConcept).coding[0].display (l538/c16)</b></td><td><b>warning</b></td><td title="NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_ERR"><b>Wrong Display Name 'Actueel' for http://snomed.info/sct#55561003. There are no valid display names found for language(s) 'nl'. Default display is 'Active'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource/*Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.code.coding[0].display (l550/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Pregnancy observable' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[5] (l520/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource/*Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.code.coding[0] (l552/c14)</b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy|1.0.2 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sm30" class="flip" onclick="flip('m30')">Show Reasoning</span><div id="m30" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy|1.0.2 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[5].resource/*Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.code.coding[0]: discriminator = true and ('118185001' in code)</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[5].resource/*Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec*/.code (l550/c10)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum_SLICE"><b>Slice 'Condition.code.coding:PregnancyObservable': a matching slice is required, but not found (from http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy|1.0.2). Note that other slices are allowed in addition to this required slice</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource/*Observation/null*/ (l571/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource/*Observation/null*/ (l571/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 5 matches the reference Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource/*Observation/null*/.code.coding[0].display (l593/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Graviditeit' for http://loinc.org#11996-6. Valid display is 'Zwangerschappen [aantal] d.m.v. rapportage' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource/*Observation/null*/ (l623/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource/*Observation/null*/ (l623/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 5 matches the reference Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource/*Observation/null*/.code.coding[0].display (l645/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Pariteit' for http://loinc.org#11977-6. Valid display is 'Pariteit [aantal] d.m.v. rapportage' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[8].resource/*Observation/null*/ (l675/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[8].resource/*Observation/null*/ (l675/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[8].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 5 matches the reference Condition/zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwanger-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[8].resource/*Observation/null*/.code.coding[0].display (l697/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'A terme datum' for http://loinc.org#11778-8. Valid display is 'Aterme datum [datum] d.m.v. klinische schatting' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[8].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/ (l723/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/ (l723/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0].system (l740/c16)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/.category[0].coding[1].code (l753/c12)</b></td><td><b>error</b></td><td title="Unknown_Code_in_Version"><b>Unknown code '49581000146104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/.category[0] (l753/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|3.0.2), and a coding is recommended to come from this value set (codes = http://terminology.hl7.org/CodeSystem/observation-category#laboratory, http://snomed.info/sct#49581000146104)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/.code.coding[0].display (l769/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'ABO group [Type] in Blood' for http://loinc.org#883-9. Valid display is 'AB0-bloedgroep [type] in bloed' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/.value.ofType(CodeableConcept).coding[0].display (l786/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Blood group A' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0] (l740/c16)</b></td><td><b>warning</b></td><td title="null"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept) (l740/c16)</b></td><td><b>warning</b></td><td title="UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS"><b>Unable to check whether the code is in the value set 'http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.8--20171231000000|2017-12-31T00:00:00' because the code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1 was not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/ (l804/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/ (l804/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0].system (l821/c16)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/.category[0].coding[1].code (l834/c12)</b></td><td><b>error</b></td><td title="Unknown_Code_in_Version"><b>Unknown code '49581000146104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/.category[0] (l834/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|3.0.2), and a coding is recommended to come from this value set (codes = http://terminology.hl7.org/CodeSystem/observation-category#laboratory, http://snomed.info/sct#49581000146104)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/.code.coding[0].display (l850/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'D Ag [Presence] on Red Blood Cells' for http://loinc.org#978-7. Valid display is 'D Ag [aanwezigheid] in erytrocyten' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/.value.ofType(CodeableConcept).coding[0].display (l867/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'RhD positive' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0] (l821/c16)</b></td><td><b>warning</b></td><td title="null"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept) (l821/c16)</b></td><td><b>warning</b></td><td title="UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS"><b>Unable to check whether the code is in the value set 'http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.8--20171231000000|2017-12-31T00:00:00' because the code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1 was not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/ (l885/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0].system (l902/c16)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/.category[0].coding[1].code (l915/c12)</b></td><td><b>error</b></td><td title="Unknown_Code_in_Version"><b>Unknown code '49581000146104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/.category[0] (l915/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|3.0.2), and a coding is recommended to come from this value set (codes = http://terminology.hl7.org/CodeSystem/observation-category#laboratory, http://snomed.info/sct#49581000146104)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/.code.coding[0].display (l931/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'little c Ag [Presence] on Red Blood Cells' for http://loinc.org#1159-3. Valid display is 'Kleine c Ag [aanwezigheid] in erytrocyten' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/.value.ofType(CodeableConcept).coding[0].display (l949/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Rhc positive' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0] (l902/c16)</b></td><td><b>warning</b></td><td title="null"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[11].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept) (l902/c16)</b></td><td><b>warning</b></td><td title="UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS"><b>Unable to check whether the code is in the value set 'http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.8--20171231000000|2017-12-31T00:00:00' because the code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1 was not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[12].resource/*Observation/null*/ (l967/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[12].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0].system (l984/c16)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[12].resource/*Observation/null*/.category[0].coding[1].code (l997/c12)</b></td><td><b>error</b></td><td title="Unknown_Code_in_Version"><b>Unknown code '49581000146104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource/*Observation/null*/.category[0] (l997/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|3.0.2), and a coding is recommended to come from this value set (codes = http://terminology.hl7.org/CodeSystem/observation-category#laboratory, http://snomed.info/sct#49581000146104)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[12].resource/*Observation/null*/.code.coding[0].display (l1013/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Hemoglobin (Bld) [Mass/Vol]' for http://loinc.org#718-7. Valid display is 'Hemoglobine [massa/volume] in bloed' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[12].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[12].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0] (l984/c16)</b></td><td><b>warning</b></td><td title="null"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[12].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept) (l984/c16)</b></td><td><b>warning</b></td><td title="UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS"><b>Unable to check whether the code is in the value set 'http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.8--20171231000000|2017-12-31T00:00:00' because the code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1 was not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[13].resource/*Observation/null*/ (l1044/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[13].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0].system (l1061/c16)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[13].resource/*Observation/null*/.category[0].coding[1].code (l1074/c12)</b></td><td><b>error</b></td><td title="Unknown_Code_in_Version"><b>Unknown code '49581000146104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13].resource/*Observation/null*/.category[0] (l1074/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|3.0.2), and a coding is recommended to come from this value set (codes = http://terminology.hl7.org/CodeSystem/observation-category#laboratory, http://snomed.info/sct#49581000146104)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[13].resource/*Observation/null*/.code.coding[0].display (l1090/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Hemoglobin (Bld) [Mass/Vol]' for http://loinc.org#718-7. Valid display is 'Hemoglobine [massa/volume] in bloed' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[13].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 4 matches the reference EpisodeOfCare/zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-c5632e6d-7377-46e3-b67b-641e9c8bdeec by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[13].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept).coding[0] (l1061/c16)</b></td><td><b>warning</b></td><td title="null"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[13].resource/*Observation/null*/.status.extension[0].value.ofType(CodeableConcept) (l1061/c16)</b></td><td><b>warning</b></td><td title="UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS"><b>Unable to check whether the code is in the value set 'http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.8--20171231000000|2017-12-31T00:00:00' because the code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1 was not found</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[14].resource/*EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6*/.type[0].coding[0].display (l1145/c12)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Pregnancy observable (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[14] (l1119/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[14].resource/*EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6*/.diagnosis[0].condition</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[15].resource/*Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6*/.clinicalStatus.extension[0].value.ofType(CodeableConcept).coding[0].display (l1195/c16)</b></td><td><b>warning</b></td><td title="NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_ERR"><b>Wrong Display Name 'Niet actueel' for http://snomed.info/sct#73425007. There are no valid display names found for language(s) 'nl'. Default display is 'Inactive'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[15].resource/*Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6*/.code.coding[0].display (l1207/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Pregnancy observable' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[15] (l1177/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[15].resource/*Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6*/.code.coding[0] (l1209/c14)</b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy|1.0.2 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sm98" class="flip" onclick="flip('m98')">Show Reasoning</span><div id="m98" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy|1.0.2 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[15].resource/*Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6*/.code.coding[0]: discriminator = true and ('118185001' in code)</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[15].resource/*Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6*/.code (l1207/c10)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum_SLICE"><b>Slice 'Condition.code.coding:PregnancyObservable': a matching slice is required, but not found (from http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy|1.0.2). Note that other slices are allowed in addition to this required slice</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[16].resource/*Observation/null*/ (l1229/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[16].resource/*Observation/null*/ (l1229/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[16].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 15 matches the reference Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[16].resource/*Observation/null*/.code.coding[0].display (l1251/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Graviditeit' for http://loinc.org#11996-6. Valid display is 'Zwangerschappen [aantal] d.m.v. rapportage' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[16].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[17].resource/*Observation/null*/ (l1281/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[17].resource/*Observation/null*/ (l1281/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[17].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 15 matches the reference Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[17].resource/*Observation/null*/.code.coding[0].display (l1303/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Pariteit' for http://loinc.org#11977-6. Valid display is 'Pariteit [aantal] d.m.v. rapportage' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[17].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/ (l1333/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/ (l1333/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 15 matches the reference Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/.code.coding[0].system (l1355/c10)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.4.13' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/.value.ofType(CodeableConcept).coding[0].system (l1372/c10)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.4.13.46' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/.code.coding[0] (l1355/c10)</b></td><td><b>warning</b></td><td title="null"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.4.13' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/.code (l1355/c10)</b></td><td><b>warning</b></td><td title="Terminology_TX_NoValid_2_CC"><b>None of the codings provided are in the value set 'bc-PregnancyObservation-code' (http://nictiz.nl/fhir/ValueSet/bc-PregnancyObservation-code|1.3.3), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:oid:2.16.840.1.113883.2.4.4.13#EindeZw)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/.value.ofType(CodeableConcept).coding[0] (l1372/c10)</b></td><td><b>warning</b></td><td title="null"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.2.4.4.13.46' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource/*Observation/null*/.value.ofType(CodeableConcept) (l1372/c10)</b></td><td><b>warning</b></td><td title="Terminology_TX_NoValid_2_CC"><b>None of the codings provided are in the value set 'bc-PregnancyObservation-value' (http://nictiz.nl/fhir/ValueSet/bc-PregnancyObservation-value|1.3.3), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:oid:2.16.840.1.113883.2.4.4.13.46#1)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[19].resource/*Observation/null*/ (l1389/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[19].resource/*Observation/null*/ (l1389/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[19].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 15 matches the reference Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[19].resource/*Observation/null*/.code.coding[0].code (l1411/c10)</b></td><td><b>error</b></td><td title="Unknown_Code_in_Version"><b>Unknown code '118951000146109' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[19].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[19].resource/*Observation/null*/.code (l1411/c10)</b></td><td><b>warning</b></td><td title="Terminology_TX_NoValid_2_CC"><b>None of the codings provided are in the value set 'bc-PregnancyObservation-code' (http://nictiz.nl/fhir/ValueSet/bc-PregnancyObservation-code|1.3.3), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://snomed.info/sct#118951000146109)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[20].resource/*Observation/null*/ (l1437/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[20].resource/*Observation/null*/ (l1437/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[20].resource/*Observation/null*/.code.coding[0].display (l1458/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Blood loss in labor (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[20].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[20].resource/*Observation/null*/.code.coding[0].display (l1458/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Blood loss in labor (observable entity)' for http://snomed.info/sct#364332008. Valid display is 'bloedverlies durante partu (waarneembare entiteit)' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[21].resource/*Observation/null*/ (l1488/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[21].resource/*Observation/null*/ (l1488/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[21].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 28 matches the reference Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240 by type and id but it does not match the full target URL urn:uuid:baring-524b79f4-29dc-43be-a455-fd4897046240 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[21].resource/*Observation/null*/.extension[1].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 29 matches the reference Patient/kind-524b79f4-29dc-43be-a455-fd4897046240 by type and id but it does not match the full target URL urn:uuid:kind-524b79f4-29dc-43be-a455-fd4897046240 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[21].resource/*Observation/null*/.code.coding[0].display (l1515/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Onset of pushing (in labor) (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[21].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[21].resource/*Observation/null*/.code.coding[0].display (l1515/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Onset of pushing (in labor) (observable entity)' for http://snomed.info/sct#249163006. Valid display is 'begin van persen tijdens partus (waarneembare entiteit)' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[22].resource/*Observation/null*/ (l1540/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[22].resource/*Observation/null*/.extension[0].value.ofType(Reference)</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 15 matches the reference Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[22].resource/*Observation/null*/.code.coding[0].display (l1561/c10)</b></td><td><b>warning</b></td><td title="NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_ERR"><b>Wrong Display Name 'Zwangerschapsduur' for http://snomed.info/sct#57036006. There are no valid display names found for language(s) 'nl'. Default display is 'Fetal gestational age'</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[22].resource/*Observation/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[22].resource/*Observation/null*/.value.ofType(Quantity) (l1578/c10)</b></td><td><b>information</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.8' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[22].resource/*Observation/null*/.value.ofType(Quantity).system (l1578/c10)</b></td><td><b>warning</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.8' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[22].resource/*Observation/null*/.value.ofType(Quantity) (l1578/c10)</b></td><td><b>error</b></td><td title="Terminology_TX_Confirm_4a"><b>The code provided (urn:oid:2.16.840.1.113883.6.8#d) was not found in the value set 'ZwangerschapsduurEenheidCodelijst' (http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.7.11.2--20171231000000|2017-12-31T00:00:00), and a code from this value set is required: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.8' could not be found, so the code cannot be validated; The provided code 'urn:oid:2.16.840.1.113883.6.8#d' was not found in the value set 'http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.7.11.2--20171231000000|2017-12-31T00:00:00'</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[23].resource/*Observation/apgar1-524b79f4-29dc-43be-a455-fd4897046240*/ (l1590/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[23].resource/*Observation/apgar1-524b79f4-29dc-43be-a455-fd4897046240*/.code.coding[0].display (l1604/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name '1 minute Apgar Score' for http://loinc.org#9272-6. Valid display is 'Score^1 min na de geboorte [functie] d.m.v. Apgar' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[23] (l1589/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[23].resource/*Observation/apgar1-524b79f4-29dc-43be-a455-fd4897046240*/.subject</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[23].resource/*Observation/apgar1-524b79f4-29dc-43be-a455-fd4897046240*/.context</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[24].resource/*Observation/apgar5-524b79f4-29dc-43be-a455-fd4897046240*/ (l1630/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[24].resource/*Observation/apgar5-524b79f4-29dc-43be-a455-fd4897046240*/.code.coding[0].display (l1644/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name '5 minute Apgar Score' for http://loinc.org#9274-2. Valid display is 'Score^5 min na geboorte [functie] d.m.v. Apgar' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[24] (l1629/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[24].resource/*Observation/apgar5-524b79f4-29dc-43be-a455-fd4897046240*/.subject</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[24].resource/*Observation/apgar5-524b79f4-29dc-43be-a455-fd4897046240*/.context</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[25].resource/*Observation/apgar10-524b79f4-29dc-43be-a455-fd4897046240*/ (l1670/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[25].resource/*Observation/apgar10-524b79f4-29dc-43be-a455-fd4897046240*/.code.coding[0].display (l1684/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name '10 minute Apgar Score' for http://loinc.org#9271-8. Valid display is 'Score^10 min na de geboorte [functie] d.m.v. Apgar' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[25] (l1669/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[25].resource/*Observation/apgar10-524b79f4-29dc-43be-a455-fd4897046240*/.subject</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[25].resource/*Observation/apgar10-524b79f4-29dc-43be-a455-fd4897046240*/.context</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[26].resource/*Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240*/ (l1710/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[26].resource/*Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240*/ (l1710/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[26].resource/*Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240*/.code.coding[0].display (l1724/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Geboortegewicht' for http://loinc.org#8339-4. Valid display is 'Lichaamsgewicht^bij geboorte [massa] d.m.v. meting' (nl-NL) (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[26] (l1709/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[26].resource/*Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240*/.subject</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[26].resource/*Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240*/.context</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[26].resource/*Observation/geboortegewicht-524b79f4-29dc-43be-a455-fd4897046240*/.code.coding[0].display (l1724/c10)</b></td><td><b>warning</b></td><td title="Display_Name_for__should_be_one_of__instead_of"><b>Wrong Display Name 'Geboortegewicht' for http://loinc.org#8339-4. Valid display is 'Birth weight Measured' (for the language(s) 'nl')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[27].resource/*Procedure/null*/.category.coding[0].display (l1764/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Obstetric procedure (procedure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[27].resource/*Procedure/null*/.code.coding[0].display (l1773/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Delivery procedure (procedure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[27].resource/*Procedure/null*/.context</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 14 matches the reference EpisodeOfCare/zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwangerschapsdossier-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[27].resource/*Procedure/null*/.reasonReference[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU"><b>Entry 15 matches the reference Condition/zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by type and id but it does not match the full target URL urn:uuid:zwanger-e501377f-76b9-4e25-87da-57b17dc5b8e6 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[28] (l1801/c6)</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_Entry_NoFullUrl"><b>Bundle entry missing fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[28].resource/*Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240*/.category.coding[0].display (l1820/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Obstetric procedure (procedure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[28].resource/*Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240*/.code.coding[0].display (l1829/c10)</b></td><td><b>information</b></td><td title="NO_VALID_DISPLAY_FOUND_LANG_NONE"><b>'Birth (finding)' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[28].resource/*Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240*/.subject</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[28].resource/*Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240*/.context</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[28].resource/*Procedure/baring-524b79f4-29dc-43be-a455-fd4897046240*/.reasonReference[0]</b></td><td><b>error</b></td><td title="Bundle_BUNDLE_FullUrl_Missing"><b>Relative Reference appears inside Bundle whose entry is missing a fullUrl</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource (l571/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource (l571/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource (l623/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource (l623/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[8].resource (l675/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[8].resource (l675/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource (l723/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource (l723/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource (l804/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource (l804/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[11].resource (l885/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[12].resource (l967/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[13].resource (l1044/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[16].resource (l1229/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[16].resource (l1229/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[17].resource (l1281/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[17].resource (l1281/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource (l1333/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[18].resource (l1333/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[19].resource (l1389/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[19].resource (l1389/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[20].resource (l1437/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[20].resource (l1437/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[21].resource (l1488/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[21].resource (l1488/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[22].resource (l1540/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[23].resource (l1590/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[24].resource (l1630/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[25].resource (l1670/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[26].resource (l1710/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[26].resource (l1710/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod"><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+</table>
