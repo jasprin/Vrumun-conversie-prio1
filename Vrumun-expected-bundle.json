@@ -352,7 +352,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+                      "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1",
                       "code": "LL",
                       "display": "Vast telefoonnummer"
                     }

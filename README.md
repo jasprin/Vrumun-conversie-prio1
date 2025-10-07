@@ -5,11 +5,12 @@ _Should have_
 * Add _gender extension with the Dutch display “Vrouw”
 
 ## Organization
-_Should have_
+_**Must have**_
 * Add organization.type.coding:
     * system: http://nictiz.nl/fhir/NamingSystem/organization-type
     * code: G3
     * display: Verloskundigenpraktijk
+* Change telecom.extension:TelecomType.system to http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType
 
 ## Practitioner
 Has no Practitioner.name, so decide what to do with this resource.
