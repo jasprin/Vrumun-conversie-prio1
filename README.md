@@ -10,7 +10,6 @@ _**Must have**_
     * system: http://nictiz.nl/fhir/NamingSystem/organization-type
     * code: G3
     * display: Verloskundigenpraktijk
-* Change telecom.extension:TelecomType.system to http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType
 
 ## Practitioner
 Has no Practitioner.name, so decide what to do with this resource.
