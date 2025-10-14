@@ -113,7 +113,7 @@ _Should have_
 
 ## Hoeveelheid bloedverlies
 _**Must have**_
-* Change Observation.valueQuantity.code to "ml" (we'll also ask Vrumun to fix the typo).
+* ~~Change Observation.valueQuantity.code to "ml"~~ (Vrumun will fix this).
 
 _Should have_
 * Display of Observation.code.coding is in English; change to Dutch "bloedverlies durante partu".
