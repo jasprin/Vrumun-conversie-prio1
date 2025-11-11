@@ -1,4 +1,7 @@
-# Vrumun conversie dataset Prio1
+# Vrumun conversie dataset Prio1 huidig
+version: 11-11-2025
+
+_N.B. issues that are crossed-out will be fixed by vendor Vrumun_
 
 ## Patient (mother)
 
@@ -40,10 +43,10 @@ _Should have_
 
 * Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Change display of LOINC 11996-6 in Observation.code.coding to "Zwangerschappen [aantal] d.m.v. rapportage".
-* Add to Observation.code.coding:
-  * system: <http://snomed.info/sct>
-  * code: 161732006
-  * display: aantal zwangerschappen
+* ~~Add to Observation.code.coding:~~
+  * ~~system: <http://snomed.info/sct>~~
+  * ~~code: 161732006~~
+  * ~~display: aantal zwangerschappen~~
 
 ## Parity
 
@@ -51,23 +54,23 @@ _Should have_
 
 * Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Change display of LOINC 11977-6 in Observation.code.coding to "Pariteit [aantal] d.m.v. rapportage".
-* Add to Observation.code.coding:
-  * system: <http://snomed.info/sct>
-  * code: 364325004
-  * display: pariteit
+* ~~Add to Observation.code.coding:~~
+  * ~~system: <http://snomed.info/sct>~~
+  * ~~code: 364325004~~
+  * ~~display: pariteit~~
 
 ## A terme datum
 
 Current bundle: 11778-8 is the estimated delivery date in PWD 2.3 <br>
 _**Must have**_
 
-* Profiles must be:
-  * <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
-  * <http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation>
-* Change Observation.code.coding to:
-  * system: <http://snomed.info/sct>
-  * code: 161714006
-  * display: geschatte datum van partus
+* ~~Profiles must be:~~
+  * ~~<http://fhir.nl/fhir/StructureDefinition/nl-core-observation>~~
+  * ~~<http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation>~~
+* ~~Change Observation.code.coding to:~~
+  * ~~system: <http://snomed.info/sct>~~
+  * ~~code: 161714006~~
+  * ~~display: geschatte datum van partus~~
 
 ## Bloedgroep
 
@@ -127,6 +130,8 @@ _Should have_
 
 * Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Display of Observation.category.coding 49581000146104 is in English; change to Dutch "bevinding betreffende laboratoriumonderzoek".
+
+# Not in scope because part of Prio 1 vorig
 
 ## Wijze einde zwangerschap
 
@@ -213,7 +218,7 @@ _Should have_
 
 Mostly empty in this bundle, needs some more testing.
 
-## Validation
+# Validation
 
 ```
 java -jar validator_cli.jar -version 3.0 -ig nictiz.fhir.nl.stu3.geboortezorg#1.3.3 -display-issues-are-warnings -sct nl -language nl -html-output validation.html fhir/*.json
