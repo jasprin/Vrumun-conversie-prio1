@@ -41,7 +41,6 @@ _**Must have**_
 
 _Should have_
 
-* Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Change display of LOINC 11996-6 in Observation.code.coding to "Zwangerschappen [aantal] d.m.v. rapportage".
 * ~~Add to Observation.code.coding:~~
   * ~~system: <http://snomed.info/sct>~~
@@ -52,7 +51,6 @@ _Should have_
 
 _Should have_
 
-* Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Change display of LOINC 11977-6 in Observation.code.coding to "Pariteit [aantal] d.m.v. rapportage".
 * ~~Add to Observation.code.coding:~~
   * ~~system: <http://snomed.info/sct>~~
@@ -76,7 +74,6 @@ _**Must have**_
 
 _Should have_
 
-* Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Display of Observation.category.coding 49581000146104 is in English; change to Dutch "bevinding betreffende laboratoriumonderzoek".
 * Display of Observation.code.coding 883-9 is in English; change to Dutch "AB0-bloedgroep [type] in bloed".
 * Display of Observation.valueCodeableConcept.coding is in English; values should be:
@@ -97,7 +94,6 @@ _**Must have**_
 
 _Should have_
 
-* Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Display of Observation.category.coding 49581000146104 is in English; change to Dutch "bevinding betreffende laboratoriumonderzoek".
 * Display of Observation.valueCodeableConcept.coding is in English; values should be:
   * 165747007 fenotype D-positief
@@ -109,7 +105,6 @@ _Should have_
 
 _Should have_
 
-* Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Display of Observation.category.coding 49581000146104 is in English; change to Dutch "bevinding betreffende laboratoriumonderzoek".
 * Display of Observation.code.coding 1159-3 is in English; change to Dutch "Kleine c Ag [aanwezigheid] in erytrocyten".
 * Display of Observation.valueCodeableConcept.coding is in English; values should be:
@@ -128,7 +123,6 @@ _**Must have**_
 
 _Should have_
 
-* Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Display of Observation.category.coding 49581000146104 is in English; change to Dutch "bevinding betreffende laboratoriumonderzoek".
 
 # Not in scope because part of Prio 1 vorig
@@ -169,14 +163,12 @@ _**Must have**_
 
 _Should have_
 
-* Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Add display to Observation.context
 
 ## Apgarscore
 
 _Should have_
 
-* Remove profile <http://fhir.nl/fhir/StructureDefinition/nl-core-observation>
 * Observation.subject is missing a display, but not enough information to add this.
 * Add display to Observation.context
 
