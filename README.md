@@ -1,5 +1,5 @@
 # Vrumun conversion Prio1 huidig
-version: 11-11-2025
+version: 1-12-2025
 
 _N.B. issues that are crossed-out will be fixed by vendor Vrumun_
 
@@ -13,10 +13,10 @@ _Should have_
 
 _**Must have**_
 
-* Add organization.type.coding:
-  * system: <http://nictiz.nl/fhir/NamingSystem/organization-type>
-  * code: G3
-  * display: Verloskundigenpraktijk
+* ~~Add organization.type.coding:~~
+  * ~~system: <http://nictiz.nl/fhir/NamingSystem/organization-type>~~
+  * ~~code: G3~~
+  * ~~display: Verloskundigenpraktijk~~
 
 ## Practitioner
 
@@ -32,10 +32,10 @@ _Should have_
 
 _**Must have**_
 
-* Change Condition.code.coding.code to:
-  * code: 118185001
-  * display: bevinding betreffende zwangerschap
-* Add Condition.context with a reference to the EpisodeOfCare; there is already a reference from EpisodeOfCare.diagnosis to zib-Pregnancy, so you could use that to create a reference back.
+* ~~Change Condition.code.coding.code to:~~
+  * ~~code: 118185001~~
+  * ~~display: bevinding betreffende zwangerschap~~
+* ~~Add Condition.context with a reference to the EpisodeOfCare; there is already a reference from EpisodeOfCare.diagnosis to zib-Pregnancy, so you could use that to create a reference back.~~
 
 ## Gravidity
 
@@ -88,9 +88,9 @@ _Should have_
 
 _**Must have**_
 
-* Change Observation.code.coding to:
-  * code: 1305-2
-  * display: D Ag [aanwezigheid] in bloed
+* ~~Change Observation.code.coding to:~~
+  * ~~code: 1305-2~~
+  * ~~display: D Ag [aanwezigheid] in bloed~~
 
 _Should have_
 
@@ -117,9 +117,9 @@ _Should have_
 
 _**Must have**_
 
-* Change Observation.code.coding to:
-  * code: 93846-4
-  * display: Hemoglobine [mol/volume] in veneus bloed
+* ~~Change Observation.code.coding to:~~
+  * ~~code: 93846-4~~
+  * ~~display: Hemoglobine [mol/volume] in veneus bloed~~
 
 _Should have_
 
@@ -141,7 +141,7 @@ _Should have_
 
 _**Must have**_
 
-* ~~Change Observation.valueQuantity.code to "ml"~~ (Vrumun will fix this).
+* ~~Change Observation.valueQuantity.code to "ml".~~
 
 _Should have_
 
