@@ -9,9 +9,9 @@ _Should have_
 
 * Add _gender extension with the Dutch display “Vrouw”
 
-## Organization
+## ~~Organization~~
 
-_**Must have**_
+~~_**Must have**_~~
 
 * ~~Add organization.type.coding:~~
   * ~~system: <http://nictiz.nl/fhir/NamingSystem/organization-type>~~
@@ -28,9 +28,9 @@ _Should have_
 
 * EpisodeOfCare.type.coding.display is in English; change to Dutch “observatie betreffende zwangerschap".
 
-## Pregnancy (Condition)
+## ~~Pregnancy (Condition)~~
 
-_**Must have**_
+~~_**Must have**_~~
 
 * ~~Change Condition.code.coding.code to:~~
   * ~~code: 118185001~~
@@ -57,10 +57,10 @@ _Should have_
   * ~~code: 364325004~~
   * ~~display: pariteit~~
 
-## A terme datum
+## ~~A terme datum~~
 
-Current bundle: 11778-8 is the estimated delivery date in PWD 2.3 <br>
-_**Must have**_
+~~Current bundle: 11778-8 is the estimated delivery date in PWD 2.3 <br>~~
+~~_**Must have**_~~
 
 * ~~Profiles must be:~~
   * ~~<http://fhir.nl/fhir/StructureDefinition/nl-core-observation>~~
