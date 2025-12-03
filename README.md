@@ -86,7 +86,7 @@ _Should have_
 
 ## Rhesus D
 
-_**Must have**_
+_~~**Must have**~~_
 
 * ~~Change Observation.code.coding to:~~
   * ~~code: 1305-2~~
@@ -115,7 +115,7 @@ _Should have_
 
 ## Hb
 
-_**Must have**_
+_~~**Must have**~~_
 
 * ~~Change Observation.code.coding to:~~
   * ~~code: 93846-4~~
@@ -139,7 +139,7 @@ _Should have_
 
 ## Hoeveelheid bloedverlies
 
-_**Must have**_
+_~~**Must have**~~_
 
 * ~~Change Observation.valueQuantity.code to "ml".~~
 
